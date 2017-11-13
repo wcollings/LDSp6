@@ -1,3 +1,5 @@
+//main class. Just to start the stupid thing
+
 public class start{
 
 	static queue shift;

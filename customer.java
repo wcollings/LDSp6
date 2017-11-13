@@ -1,3 +1,5 @@
+//class to hold specific customer information
+
 import java.util.Random;
 
 public class customer{

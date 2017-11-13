@@ -2,6 +2,8 @@ import java.io.PrintWriter;
 import java.util.Random;
 import java.util.Scanner;
 
+//Implements the running algorithm
+
 public class queue{
 	
 	Line line;
@@ -17,7 +19,7 @@ public class queue{
 		currentTime=0;
 	}
 
-	void process(){
+	void process(){ //run the actual algorithm
 		Scanner pause=new Scanner(System.in);
 		Random rand = new Random();
 		int waitUntilNextCustomerArrives=rand.nextInt(4)+1;
@@ -35,9 +37,6 @@ public class queue{
 				{					
 					out.println(currentTime+": customer enters");
 					line.getNextCustomer(currentTime);
-					//System.out.println(currentTime+": customer enters");
-					//System.out.printf("entered q at %d%n", line.get(0).arrival);
-					//pause.next();
 					waitUntilNextCustomerEnters=line.getNextProcessingTime();
 				}
 				else
