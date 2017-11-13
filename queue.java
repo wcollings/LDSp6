@@ -20,9 +20,9 @@ public class queue{
 	void process(){ //run the actual algorithm
 		Scanner pause=new Scanner(System.in);
 		Random rand = new Random();
-		int waitUntilNextCustomerArrives=0;
+		int waitUntilNextCustomerArrives=rand.nextInt(4)+1;
 		int waitUntilNextCustomerEnters=0;
-		for (int currentTime=waitUntilNextCustomerArrives; currentTime < 480; ++currentTime){
+		for (int currentTime=0; currentTime < 480; ++currentTime){
 			if (waitUntilNextCustomerArrives == currentTime)
 			{
 				out.println(currentTime+": customer shows up");

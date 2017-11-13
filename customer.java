@@ -3,7 +3,7 @@
 import java.util.Random;
 
 public class customer{
-	int arrival, entered, processing, ID;
+	int arrival, entered, processing;
 	public customer(){
 	}
 
@@ -17,22 +17,12 @@ public class customer{
 		return entered-arrival;
 	}
 
-	public int getWaitTime(int current, boolean print)
+	public int getWaitTime(int current)
 	{
-		//if (print)
-		//System.out.printf("#%d pulled in at %d, entered at %d, wait time was %d%n",ID, arrival, current, current-arrival);		
 		return current-arrival;
 
 	}
 	public customer(int a){
-		arrival=a;
-		entered=0;
-		Random rand= new Random();
-		processing=rand.nextInt(3)+2;
-	}
-
-	public customer(int a, int ID){
-		this.ID=ID;
 		arrival=a;
 		entered=0;
 		Random rand= new Random();
