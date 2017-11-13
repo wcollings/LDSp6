@@ -3,30 +3,39 @@
 import java.util.Random;
 
 public class customer{
-	int arrival, entered, processing;
-	boolean enqueued;
+	int arrival, entered, processing, ID;
 	public customer(){
-		enqueued=false;
 	}
 
-	public setEnterTime(int a)
+	public void setEnterTime(int a)
 	{
 		entered=a;
 	}
 
-	public getWaitTime()
+	public int getWaitTime()
 	{
 		return entered-arrival;
+	}
+
+	public int getWaitTime(int current, boolean print)
+	{
+		//if (print)
+		//System.out.printf("#%d pulled in at %d, entered at %d, wait time was %d%n",ID, arrival, current, current-arrival);		
+		return current-arrival;
+
 	}
 	public customer(int a){
 		arrival=a;
 		entered=0;
 		Random rand= new Random();
 		processing=rand.nextInt(3)+2;
-		enqueued=true;
 	}
-	boolean exists()
-	{
-		return enqueued;
+
+	public customer(int a, int ID){
+		this.ID=ID;
+		arrival=a;
+		entered=0;
+		Random rand= new Random();
+		processing=rand.nextInt(3)+2;
 	}
 }

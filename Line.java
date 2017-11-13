@@ -1,6 +1,7 @@
 //Queue implementation. mostly self-explanatory
 
 public class Line{
+	int nextID=0;
 	int customersServiced, customersBypassed, totalWaitTime, longestWaitTime;
 	private customer[] q;
 	int size;
@@ -24,22 +25,22 @@ public class Line{
 	public void getNextCustomer(int currentTime)
 	{
 		customersServiced++;
-		totalWaitTime+=2 //finish this line
-		if ((currentTime-q[1].arrival) >longestWaitTime)
-			longestWaitTime=(currentTime-q[1].arrival);
+		printq();
+		totalWaitTime+=q[0].getWaitTime(currentTime, true);
 		for (int i=0; i < size-1;++i)
 		{
-			q[i+1]=q[i];
+			q[i]=q[i+1];
 		}
-		q[size--]=new customer();
+		if (currentTime-q[0].getWaitTime(currentTime, false) >longestWaitTime)
+		longestWaitTime=q[0].getWaitTime(currentTime, false);
+		--size;
 	}
 
 	public void addCustomer(int currentTime)
 	{
-		if (size < 3)
+		if (size < 4)
 		{
-			q[size]= new customer(currentTime);
-			size++;
+			q[size++]= new customer(currentTime, nextID++);
 		}
 		else customersBypassed++;
 	}
@@ -66,5 +67,15 @@ public class Line{
 	public int size()
 	{
 		return size;
+	}
+
+	public void printq()
+	{
+		System.out.printf("The queue is: %n{");
+		for (int i=0; i < size; ++i)
+		{
+			System.out.print(q[i].ID+" ");
+		}
+		System.out.println("}");
 	}
 }
