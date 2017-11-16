@@ -1,3 +1,3 @@
 all: start.java queue.java Line.java customer.java
-	javac start.java queue.java Line.java customer.java
-	java start
+	javac queue.java Line.java customer.java
+	java queue

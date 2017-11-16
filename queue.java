@@ -17,7 +17,8 @@ public class queue{
 		line = new Line();
 	}
 
-	void process(){ //run the actual algorithm
+	public static void main(String[] args)
+	{
 		Scanner pause=new Scanner(System.in);
 		Random rand = new Random();
 		int waitUntilNextCustomerArrives=rand.nextInt(4)+1;
