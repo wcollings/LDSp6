@@ -4,14 +4,15 @@ public class Line{
 	int customersServiced, customersBypassed, totalWaitTime, longestWaitTime;
 	private customer[] q;
 	int size;
+	final int MAXSIZE=8;
 	public Line()
 	{
 		customersBypassed=0;
 		customersServiced=0;
 		totalWaitTime=0;
 		longestWaitTime=0;
-		q= new customer[4];
-		for (int i=0; i < 4; ++i)
+		q= new customer[MAXSIZE];
+		for (int i=0; i < MAXSIZE; ++i)
 			q[i] = new customer();
 		size=0;
 	}
@@ -36,7 +37,7 @@ public class Line{
 
 	public void addCustomer(int currentTime)
 	{
-		if (size < 4)
+		if (size < MAXSIZE)
 		{
 			q[size++]= new customer(currentTime);
 		}
