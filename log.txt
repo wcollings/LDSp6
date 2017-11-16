@@ -1,345 +1,354 @@
-3: customer shows up
-3: customer enters
-7: customer shows up
-7: customer enters
-8: customer shows up
+1: customer shows up
+1: customer enters
+5: customer shows up
+5: customer enters
 9: customer shows up
-10: customer enters
-11: customer shows up
+9: customer enters
+12: customer shows up
+13: customer shows up
 13: customer enters
-15: customer shows up
 15: customer enters
-16: customer shows up
-18: customer shows up
-18: customer enters
-21: customer shows up
-22: customer enters
-24: customer enters
+17: customer shows up
+19: customer shows up
+19: customer enters
+23: customer shows up
+23: customer enters
+24: customer shows up
 25: customer shows up
-26: customer shows up
-27: customer enters
-30: customer shows up
+25: customer enters
+29: customer shows up
+29: customer enters
+31: customer shows up
 31: customer enters
-32: customer shows up
 33: customer shows up
-33: customer enters
+34: customer enters
 36: customer shows up
-36: customer enters
-37: customer shows up
-39: customer shows up
-39: customer enters
-42: customer enters
+38: customer shows up
+38: customer enters
+40: customer shows up
+40: customer enters
 43: customer shows up
+43: customer enters
 45: customer shows up
-45: customer enters
-48: customer shows up
+47: customer shows up
+47: customer enters
 49: customer enters
 51: customer shows up
-53: customer enters
+52: customer enters
 55: customer shows up
-56: customer shows up
-57: customer enters
-60: customer shows up
+56: customer enters
+58: customer shows up
+59: customer shows up
 60: customer enters
-62: customer shows up
-62: customer enters
-65: customer enters
+61: customer shows up
+63: customer enters
+64: customer shows up
 66: customer shows up
-68: customer enters
+67: customer enters
+69: customer enters
 70: customer shows up
-70: customer enters
-73: customer enters
+72: customer shows up
+72: customer enters
 74: customer shows up
+74: customer enters
+76: customer shows up
 76: customer enters
-78: customer shows up
-78: customer enters
 79: customer shows up
+80: customer shows up
 80: customer enters
 83: customer shows up
-83: customer enters
-84: customer shows up
-87: customer enters
-88: customer shows up
-89: customer shows up
-91: customer enters
-92: customer shows up
+84: customer enters
+86: customer enters
+87: customer shows up
+88: customer enters
+90: customer shows up
+92: customer enters
+94: customer shows up
 95: customer shows up
-95: customer enters
-97: customer enters
+96: customer enters
 98: customer shows up
-101: customer enters
-102: customer shows up
+99: customer enters
+101: customer shows up
+103: customer enters
+105: customer shows up
 105: customer enters
-106: customer shows up
-109: customer enters
-110: customer shows up
+107: customer shows up
+107: customer enters
+111: customer shows up
+111: customer enters
 112: customer shows up
-112: customer enters
 115: customer shows up
-116: customer enters
-118: customer shows up
-120: customer enters
-121: customer shows up
-123: customer enters
-124: customer shows up
-125: customer enters
-127: customer enters
-128: customer shows up
-130: customer shows up
+115: customer enters
+117: customer shows up
+119: customer shows up
+119: customer enters
+122: customer enters
+123: customer shows up
+124: customer enters
+125: customer shows up
+126: customer enters
+127: customer shows up
+129: customer enters
 131: customer shows up
 131: customer enters
-135: customer shows up
-135: customer enters
-136: customer shows up
-138: customer enters
+133: customer shows up
+133: customer enters
+137: customer shows up
+137: customer enters
 140: customer shows up
+140: customer enters
 142: customer enters
-143: customer shows up
 144: customer shows up
-144: customer enters
-146: customer enters
-148: customer shows up
-149: customer shows up
-150: customer shows up
-150: customer enters
-153: customer shows up
-154: customer enters
-155: customer shows up
+145: customer enters
+147: customer shows up
+147: customer enters
+151: customer shows up
+151: customer enters
+152: customer shows up
+155: customer enters
+156: customer shows up
+157: customer enters
 158: customer shows up
-158: customer enters
-160: customer shows up
-160: customer enters
-162: customer shows up
+161: customer shows up
+161: customer enters
 163: customer shows up
-164: customer enters
-166: customer shows up
-167: customer enters
-169: customer shows up
-170: customer enters
-171: customer shows up
+163: customer enters
+165: customer enters
+167: customer shows up
+168: customer shows up
+169: customer enters
+170: customer shows up
 172: customer shows up
-173: customer shows up
 173: customer enters
 175: customer enters
-177: customer shows up
+176: customer shows up
+177: customer enters
+179: customer shows up
 179: customer enters
-180: customer shows up
+181: customer shows up
+181: customer enters
 183: customer shows up
-183: customer enters
-186: customer shows up
-186: customer enters
-188: customer shows up
-190: customer enters
+184: customer shows up
+185: customer shows up
+185: customer enters
+189: customer shows up
+189: customer enters
 192: customer shows up
+193: customer shows up
 193: customer enters
-195: customer shows up
+195: customer enters
+196: customer shows up
 197: customer enters
-198: customer shows up
-199: customer shows up
-200: customer enters
-203: customer shows up
-203: customer enters
-205: customer shows up
+199: customer enters
+200: customer shows up
+201: customer enters
+202: customer shows up
+204: customer shows up
+204: customer enters
 206: customer enters
-207: customer shows up
 208: customer shows up
-209: customer enters
-210: customer shows up
-213: customer shows up
-213: customer enters
-216: customer shows up
-216: customer enters
-218: customer shows up
-218: customer enters
-221: customer shows up
-222: customer shows up
+210: customer enters
+211: customer shows up
+212: customer enters
+214: customer shows up
+215: customer enters
+217: customer shows up
+219: customer enters
+220: customer shows up
 222: customer enters
-223: customer shows up
+224: customer shows up
+225: customer shows up
 225: customer enters
-226: customer shows up
-227: customer enters
-229: customer enters
-230: customer shows up
+228: customer shows up
+228: customer enters
+232: customer shows up
 232: customer enters
-233: customer shows up
+236: customer shows up
 236: customer enters
-237: customer shows up
-238: customer shows up
+239: customer shows up
 239: customer enters
 242: customer shows up
-242: customer enters
-244: customer enters
+243: customer enters
+244: customer shows up
 246: customer shows up
-247: customer enters
+246: customer enters
+247: customer shows up
 248: customer shows up
+249: customer enters
 250: customer shows up
-251: customer enters
-253: customer shows up
-253: customer enters
+252: customer enters
+254: customer shows up
+255: customer enters
 257: customer shows up
-257: customer enters
-260: customer enters
+258: customer enters
 261: customer shows up
-262: customer enters
-265: customer shows up
-265: customer enters
-267: customer shows up
-269: customer shows up
+261: customer enters
+262: customer shows up
+263: customer shows up
+264: customer shows up
+264: customer enters
+266: customer shows up
+266: customer enters
 269: customer enters
+270: customer shows up
+271: customer shows up
+272: customer enters
 273: customer shows up
-273: customer enters
+275: customer enters
 276: customer shows up
 277: customer shows up
 277: customer enters
-278: customer shows up
-279: customer enters
+280: customer enters
 281: customer shows up
 283: customer enters
-284: customer shows up
-285: customer enters
-286: customer shows up
+285: customer shows up
+286: customer enters
 287: customer shows up
+288: customer shows up
 289: customer enters
 291: customer shows up
 291: customer enters
 294: customer shows up
-295: customer enters
+294: customer enters
+295: customer shows up
+296: customer enters
 297: customer shows up
-298: customer enters
-300: customer shows up
-301: customer enters
-303: customer shows up
+298: customer shows up
+300: customer enters
+302: customer shows up
 303: customer enters
-305: customer enters
-307: customer shows up
-309: customer shows up
-309: customer enters
+305: customer shows up
+306: customer enters
+308: customer shows up
+310: customer enters
+311: customer shows up
+312: customer shows up
 312: customer enters
 313: customer shows up
-316: customer shows up
+314: customer enters
+315: customer shows up
 316: customer enters
-317: customer shows up
 318: customer shows up
+318: customer enters
+320: customer shows up
 320: customer enters
-321: customer shows up
-322: customer shows up
-324: customer enters
-326: customer shows up
-326: customer enters
-327: customer shows up
+322: customer enters
+323: customer shows up
+325: customer shows up
+325: customer enters
+327: customer enters
 328: customer shows up
-328: customer enters
 330: customer shows up
-331: customer enters
+330: customer enters
+331: customer shows up
 333: customer shows up
-334: customer enters
-335: customer shows up
-338: customer shows up
-338: customer enters
-341: customer shows up
-342: customer enters
-343: customer shows up
+333: customer enters
+337: customer shows up
+337: customer enters
+339: customer shows up
+339: customer enters
+340: customer shows up
+341: customer enters
 344: customer shows up
-344: customer enters
-346: customer shows up
-346: customer enters
+345: customer enters
+347: customer shows up
+347: customer enters
+349: customer shows up
 350: customer shows up
 350: customer enters
-353: customer shows up
+354: customer shows up
 354: customer enters
-355: customer shows up
-357: customer shows up
-358: customer enters
-359: customer shows up
+356: customer enters
+358: customer shows up
+359: customer enters
+361: customer shows up
+361: customer enters
 362: customer shows up
-362: customer enters
-366: customer shows up
-366: customer enters
+363: customer shows up
+363: customer enters
+367: customer shows up
+367: customer enters
+368: customer shows up
+369: customer shows up
+369: customer enters
 370: customer shows up
-370: customer enters
-372: customer enters
-374: customer shows up
-374: customer enters
+371: customer shows up
+373: customer shows up
+373: customer enters
 377: customer shows up
 377: customer enters
+378: customer shows up
+379: customer shows up
 380: customer shows up
 381: customer enters
 383: customer shows up
-384: customer shows up
 384: customer enters
-387: customer shows up
+385: customer shows up
 387: customer enters
+388: customer shows up
 390: customer shows up
 390: customer enters
-391: customer shows up
-392: customer shows up
-393: customer enters
-395: customer enters
-396: customer shows up
-397: customer enters
-399: customer shows up
-400: customer enters
+394: customer shows up
+394: customer enters
+396: customer enters
+397: customer shows up
+399: customer enters
+401: customer shows up
 403: customer shows up
 403: customer enters
 404: customer shows up
-406: customer shows up
+405: customer enters
 407: customer enters
 408: customer shows up
 409: customer enters
 411: customer shows up
-411: customer enters
-413: customer enters
+412: customer enters
 414: customer shows up
-415: customer shows up
-415: customer enters
-417: customer enters
-418: customer shows up
-420: customer enters
-421: customer shows up
-423: customer shows up
-424: customer enters
-426: customer shows up
-426: customer enters
-427: customer shows up
-430: customer enters
+416: customer shows up
+416: customer enters
+419: customer enters
+420: customer shows up
+423: customer enters
+424: customer shows up
+425: customer enters
+428: customer shows up
+429: customer shows up
+429: customer enters
 431: customer shows up
-432: customer shows up
-432: customer enters
-434: customer enters
-436: customer shows up
-437: customer shows up
-437: customer enters
-440: customer shows up
+431: customer enters
+433: customer enters
+434: customer shows up
+436: customer enters
+438: customer shows up
+438: customer enters
+439: customer shows up
 440: customer enters
-441: customer shows up
-442: customer shows up
-442: customer enters
 443: customer shows up
+444: customer enters
 446: customer shows up
-446: customer enters
-449: customer shows up
+447: customer enters
 449: customer enters
-451: customer enters
-453: customer shows up
+450: customer shows up
+453: customer enters
+454: customer shows up
 455: customer enters
-456: customer shows up
-458: customer enters
-460: customer shows up
-461: customer enters
-463: customer shows up
-464: customer enters
-467: customer shows up
-467: customer enters
+457: customer enters
+458: customer shows up
+460: customer enters
+462: customer shows up
+462: customer enters
+465: customer shows up
+465: customer enters
+469: customer shows up
 469: customer enters
-470: customer shows up
-473: customer shows up
-473: customer enters
+472: customer shows up
+472: customer enters
 474: customer shows up
-477: customer enters
-478: customer shows up
-479: customer enters
+476: customer enters
+477: customer shows up
+478: customer enters
 FINAL REPORT:
-156 Customers served
-26 customers bypassed
-8m was the avg wait time
+164 Customers served
+17 customers bypassed
+16m was the avg wait time
 

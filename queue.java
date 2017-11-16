@@ -6,19 +6,19 @@ import java.util.Scanner;
 
 public class queue{
 	
-	Line line;
-	int idleTime;
-	PrintWriter out;
+	static Line line;
+	static int idleTime;
+	static PrintWriter out;
 
 	public queue() throws Exception
+	{
+	}
+
+	public static void main(String[] args)throws Exception
 	{
 		out = new PrintWriter("log.txt");
 		idleTime=0;
 		line = new Line();
-	}
-
-	public static void main(String[] args)
-	{
 		Scanner pause=new Scanner(System.in);
 		Random rand = new Random();
 		int waitUntilNextCustomerArrives=rand.nextInt(4)+1;
