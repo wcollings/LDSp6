@@ -16,14 +16,22 @@ public class queue{
 
 	public static void main(String[] args)throws Exception
 	{
+		
 		out = new PrintWriter("log.txt");
 		idleTime=0;
 		line = new Line();
-		Scanner pause=new Scanner(System.in);
+		Scanner stdin=new Scanner(System.in);
+		int start, mins, hours, total;
+		System.out.println("how many minutes are we running to?");
+		start = stdin.nextInt();
+		System.out.println("and how many hours, and minutes is the shift?");
+		hours=stdin.nextInt();
+		mins=stdin.nextInt();
+		total=(hours*60)+mins;
 		Random rand = new Random();
 		int waitUntilNextCustomerArrives=rand.nextInt(4)+1;
 		int waitUntilNextCustomerEnters=0;
-		for (int currentTime=0; currentTime < 480; ++currentTime){
+		for (int currentTime=0; currentTime < total; ++currentTime){
 			if (waitUntilNextCustomerArrives == currentTime)
 			{
 				out.println(currentTime+": customer shows up");
