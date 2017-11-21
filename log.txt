@@ -351,4 +351,3 @@ FINAL REPORT:
 164 Customers served
 17 customers bypassed
 16m was the avg wait time
-

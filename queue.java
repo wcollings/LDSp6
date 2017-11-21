@@ -10,10 +10,6 @@ public class queue{
 	static int idleTime;
 	static PrintWriter out;
 
-	public queue() throws Exception
-	{
-	}
-
 	public static void main(String[] args)throws Exception
 	{
 		out = new PrintWriter("log.txt");
