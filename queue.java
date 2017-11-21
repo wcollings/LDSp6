@@ -18,11 +18,15 @@ public class queue{
 		line = new Line();
 		Scanner stdin=new Scanner(System.in);
 		int start, mins, hours, total;
-		System.out.println("how many minutes are we running to?");
+		System.out.println("how many cars are we starting with?");
 		start = stdin.nextInt();
 		System.out.println("and how many hours, and minutes is the shift?");
 		hours=stdin.nextInt();
 		mins=stdin.nextInt();
+		for (int i=0; i < start; ++i)
+		{
+			line.addCustomer(0);
+		}
 		total=(hours*60)+mins;
 		Random rand = new Random();
 		int waitUntilNextCustomerArrives=rand.nextInt(4)+1;
@@ -51,7 +55,6 @@ public class queue{
 		}
 		out.println(line);
 		out.close();
-		pause.close();
 	}	
 
 }
